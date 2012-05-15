@@ -1,0 +1,12 @@
+name: FauxMessage
+main: com.richboos.fauxmessage.FauxMessage
+version: 0.1
+description: Preset messages triggered by commands, configured in a text file
+author: Richard Boos
+website: http://dev.bukkit.org/server-mods/fauxmessage
+commands:
+  fm:
+    description: Broadcast a preset message
+    usage: /fm example | Broadcasts message set to example
+    permission: fauxmessage.example 
+    permission-message: You don't have <permission>
