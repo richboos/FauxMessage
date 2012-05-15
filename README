@@ -1,0 +1,22 @@
+FauxMessage was created for usage on my server so my staff could activate a number of fake messages using easy commands.
+For example, when we added a lottery plugin we were joining the lottery so that the ticket purchases which
+are broadcast would help advertise the lottery.  This unfortunately resulted in the staff winning the lottery on
+many occasions.  I created this plugin to solve this issue and get my feet wet with my first plugin ever!
+
+FauxMessage has 3 components you need and you will on your way.
+
+Configuration
+The configuration uses a command=output style setup.  For example:
+lottery="%player has purchased a lottery ticket"
+
+Permissions
+The permission nodes relate to the command in the configuration.
+In the above example the following permission would allow the lottery command
+fauxmessage.lottery
+I have also implemented node for allowing all commands
+fauxmessage.*
+
+Commands
+Use commands after /fauxmessage or /fm
+/fm lottery
+
