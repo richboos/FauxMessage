@@ -1,0 +1,8 @@
+# FauxMessage Configuration File
+# command="Output"
+# Supports colors, %player (the player who calls the command) and 
+# %world (the world which the player calling the command is in)
+# Example:
+# lottery="&e%player &6has just purchased tickets in the server lottery!"
+
+test="Testing, 1,2,3"
