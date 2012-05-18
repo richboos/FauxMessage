@@ -8,4 +8,7 @@ commands:
   fm:
     description: Broadcast a preset message
     usage: /fm example | Broadcasts message set to example
-    permission: fauxmessage.example 
+permissions:
+  fm.test:
+    description: We test... Hard.
+    default: op
